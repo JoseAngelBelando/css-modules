@@ -1,6 +1,10 @@
-const Button = ({children}) => {
+import styles from './button.module.css';
+
+console.log(styles)
+
+const Button = () => {
     
-    return <button>{children}</button>;
+    return <button className={styles.button}>Click Me</button>;
 };
 
 

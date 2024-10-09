@@ -1,6 +1,7 @@
+import Image from "./components/imagen/Imagen";
 
 const App = ()=> {
-  return <h1>React</h1>
+  return <Image/>;
 };
 
 export default App;
